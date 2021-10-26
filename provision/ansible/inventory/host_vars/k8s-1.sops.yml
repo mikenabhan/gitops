@@ -1,0 +1,34 @@
+kind: Secret
+ansible_user: ENC[AES256_GCM,data:WIck2q6cgQ==,iv:wLgHNhCidgCd6aQrFoLpflDWXY+uNZV9DXpKVqdok3o=,tag:Q0TxwnuGWgyVHptR4KFPuQ==,type:str]
+ansible_become_pass: null
+sops:
+    kms: []
+    gcp_kms: []
+    azure_kv: []
+    hc_vault: []
+    age: []
+    lastmodified: "2021-10-26T23:01:20Z"
+    mac: ENC[AES256_GCM,data:4C8aw96m+vK2lDFIbydL9VUH+pw3w2xzUYvrAAehVOQK3P9fazTom1VvJ9kVNB0WtSWe8YOX0qicq7+A8I7yLjXe3vBddbC4mvM7uf/sPH4T6+ZdKcD5ENxLLYWPSWaT9Lf9rKqCBwQB7+0/rFAZ1w7QHzYp/jGa5LU3WdYIWdo=,iv:jTOluKNouO3mGN7EvAeuMkvMdlHe0tKF1I0MLmEjYYQ=,tag:F8uQ9qRuQZon47AknVj5QA==,type:str]
+    pgp:
+        - created_at: "2021-10-26T23:01:19Z"
+          enc: |
+            -----BEGIN PGP MESSAGE-----
+
+            hQIMA4usUSIbBXpjARAAsM5gg/8xAP//uibHlqlwUUMhFR2ImDGj9uijgRcxV0bP
+            XFawMsGKwKXi1cVIaAjCoGcsN0JwIlLm8mCrshxnPvvco7jfBTcAtA4NYyVmQIhM
+            fgpRJIHbMTi+/30azXYSaEEacTz6wL2jG/6bT8K9EbFW7QIKzMxqz9EMEcLoh7ld
+            bGMtvwtrL9bSbNWfEAwBgw0nyx5vVQuZDBDnU0jLR7YsiAOg75/R1bz4LJcZgtL7
+            80C9JLR4hIzrTz9UQGFzX8dvJaOMrq6NhFneG9HRpJvandabl7R1ka1Q74srQV/W
+            emx3/gvZ2Dwes7hzZJbGuU7zoYZObujCUqIsKAueWGTSc+90vhdySrz9hfL1HRko
+            gdzqRXINe9Zk2iPRyvNizAVc6DfmA3hMAxFhhD9hXwDJZmjkU4lm2SrWOXWV4Y+V
+            iNPIwK1PzInrw+c2WPOlXZjFq2+HvA9yI9LNP3jyonMuCFxEw6Fri75FTDtfU5xl
+            Pdu0KPEwIBJabxznLVSygavroadTnVq0LgwUNCkudnnAqdk2JGAMC6dUvl50XVzh
+            awnhYFzDDhZBsn5q+sBJBKlQqFWNiiQOAk0GSCUzCPSI22JIeP1EqT2X01V4csmK
+            ZaHFTvi4um+XowI7HfzArshak29Eudx2E0lD62sUqmE3u+q6nde9au+rO4J9JVLS
+            XAHkiI9/FtHwBxMeA5/Zt75nI61bCIUfhLUrR00ZFyqF9dlPksmHVe+GVTv5eeOn
+            mHo4n5b6zlxWp0AHRS28Eqoz2eGXVue0t8UjRBvNSZ3XzWle/d3IuVx9zXuU
+            =dG6R
+            -----END PGP MESSAGE-----
+          fp: 942B2F0CAB0D5D9862F3853F364E795D254254FA
+    unencrypted_regex: ^(kind)$
+    version: 3.7.1
