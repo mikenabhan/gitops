@@ -58,8 +58,8 @@ resource "proxmox_vm_qemu" "instance" {
   agent = "1"
 
   cores = 2
-  memory = 4096
-  balloon = 2048
+  memory = 8192
+  balloon = 4096
 
   os_type = "cloud-init"
   network {
@@ -71,7 +71,7 @@ resource "proxmox_vm_qemu" "instance" {
   disk {
     type    = "scsi"
     storage = "nvme"
-    size    = "64G"
+    size    = "100G"
   }
 
   ipconfig0 = "ip=dhcp"
